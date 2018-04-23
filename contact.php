@@ -7,9 +7,9 @@
 	$formcontent="Name: $name\n\nEmail: $email\n\nMessage: $message";
 	
 	// Enter the email where you want to receive the notification when someone submit form
-	$recipient = "admin@egrappler.com";
+	$recipient = "nelsoneax@yandex.ru";
 	
-	$subject = "See Soon! Contact Form";
+	$subject = "Заявка на перезвонить от availsoft.ru";
 	
 	$mailheader = "From: $email\\r\\n";
 	$mailheader .= "Reply-To: $email\\r\\n";
@@ -22,7 +22,7 @@
 ?>
 	
 	<script language="javascript" type="text/javascript">
-		alert('Thank you for you e-mail. We will contact you shortly.');
+		alert('Благодарим вас за проявленный интерес! Скоро с вами свяжется наш представитель.');
 		window.location = "../index.html";
 	</script>
 	
@@ -33,7 +33,7 @@
 ?>
 
     <script language="javascript" type="text/javascript">
-		alert('Message not sent.');
+		alert('Что-то пошло не так. Мы не смогли отправить сообщение. Просим вас связаться с нами по указанным контактам');
 		window.location = "../index.html";
     </script>
 	
